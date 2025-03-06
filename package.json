@@ -1,0 +1,15 @@
+{
+  "name": "login-system",
+  "version": "1.0.0",
+  "description": "Sistema de login com frontend e backend",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js" // Script para iniciar o servidor
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0", // Dependência para analisar o corpo das requisições
+    "express": "^4.17.1" // Framework web para Node.js
+  },
+  "author": "",
+  "license": "ISC"
+}
